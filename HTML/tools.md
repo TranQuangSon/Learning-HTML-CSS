@@ -1,0 +1,6 @@
+- ctrl/cmd + P: tìm kiếm file trong dự án
+- ctrl/cmd + shift + P: mở các lệnh trong vscode
+- ctrl/cmd + D: chọn nhiều từ giống nhau
+- ctrl/cmd + shift + L: Chọn hết nhiều từ giống nhau
+- alt/option + mũi tên lên hoặc xuống: để di chuyển 1 hoặc nhiều khi bôi đen hoặc không
+- shift + alt/option + mũi tên lên hoặc xuống: sao chép nhanh
