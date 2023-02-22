@@ -64,6 +64,37 @@
 - _align-items_: `stretch` là thuộc tính làm cho các cột bằng nhau, `flex-start` là căn phần trên đầu, `flex-end` là căn phần ở dưới, `center` là căn giữa vs nhau, `baseline` là các dòng chữ đầu tiên bằng nhau
 - _flex-wrap_: `nowrap` là không cho phép xuống hàng, `wrap` là cho phép xuống hàng
 - _oject-fit_: `cover` thường được dùng cho thẻ ảnh, dùng để phủ hết khung khoảng trống, không làm cho ảnh bị méo
+- Day 2:
+- _justify-content_: `flex-start` là các phần tử nằm dồn về phía bên trái, `flex-end` thì các phần tử nằm dồn về phía bên phải, `center` là các phần tử nằm ở giữa, `space-between` là các phần tử nằm đầu và cuối, `space-around` là khoảng trống xung quanh, ở giữa gấp đôi, `space-evenly` là khoảng trống xung quanh bằng nhau
+- _column-gap_: khoảng trống chiều dọc
+- _row-gap_: khoảng chống chiều ngang
+/* gap: 30px 30px; row-gap - column-gap */
+- _overflow_: `hidden` là dạng không cho chữ bị tràn ra bên ngoài, 
+- _word-break_: `break-all` khi hết đoạn thì một từ sẽ tự động ngắt ở bất kỳ chữ nào để xuống hàng, `break-word` xuống dòng theo từ tùy thuộc khoảng trống bao nhiêu
+- _white-space_: `nowrap` không cho chữ xuống hàng, luôn luôn nằm trên 1 hàng
+- _text-overflow_: `ellipsis` hiện dấu 3 (...) trên đoạn
+- _text-truncate_: (evondev) có 2 dòng, hiện 3(...)
+Day 3
 - _component_: mục đích là tái sử dụng vào có thể tùy chỉnh 1 chỗ để sử dụng nhiều nơi
-- _justify-content_: `flex-start` là các phần tử nằm dồn về phía bên trái, `flex-end` thì các phần tử nằm dồn về phía bên phải, `center` là các phần tử nằm ở giữa, `space-between` là các phần tử nằm đầu và cuối, `space-around` là khoảng trống xung quanh, ở giữa gấp đôi
 - _pug_: 
+Day 4
+- _mixins_: giống function trong JavaScript mục đích là tái sử dụng code
+
+- _position_: có 5 giá trị chính: `static`, `relative`, `absolute`, `sticky`, `fixed`, khi sử dụng thuộc tính position này thì đi kèm sẽ có các thuộc tính khác như top, right, bottom, left z-index
+- `relative`: khi sử dụng giá trị này thì phải lưu ý xem phần tử con của nó có sử dụng position là `absolute` hay không?
+- `absolute`: khi sử dụng giá trị này thì phải lưu ý xem phần tử chứa nó gần nhất có sử dụng position là absolute hay relative không?
+
+Day 5
+- _reponsive_: sử dụng HTML và CSS để tự động thay đổi kích thước, ẩn, thu nhỏ hoặc phóng to trang web để làm cho trang web trông đẹp mắt trên tất cả các thiết bị (máy tính để bàn, máy tính bảng và điện thoại)
+- _breakpoints_: 320px, 480px, 768px, 1024px, 1200px, 1366px, 1440px, 1600px, 1920px
+- _min-width_: (media queries)
+/* @media screen and (min-width: breakpoints) */
+- _max-width_:  (media queries)
+/* @media screen and (max-width: breakpoints - 0.2px) */
+- _media queries_
+
+Day 6:
+- _transform_: translate(translateX(value), translateY(value)), skew(skewX, skewY), rotate(rotateX, Y, Z), scale(X, Y)
+- `translateX`: Nếu giá trị là số dương thì nó sẽ di chuyển qua bên phải, ngược lại thì di chuyển qua bên trái
+- `translateY`: Nếu giá trị là số dương thì nó sẽ đi xuống, ngược lại thì sẽ đi lên 
+- `value`: 10px, 20px, -15px, -30px, 10%(lưu ý: khi sử dụng % thì % ở đây chính là độ rộng hoặc chiều cao của khối chúng ta đang áp dụng thuộc tính transform và hàm translate)

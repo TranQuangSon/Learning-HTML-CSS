@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: #f5f5ff;
+    padding: 40px 24px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.popular-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.popular-item{
+    width: calc(25% - 30px);
+    margin-left: 30px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 64px rgba(0, 0, 0, 0.06);
+}
+.popular-image{
+    height: 185px;
+    position: relative;
+}
+.popular-img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.popular-label{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    color: #F4F5F6;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-flex;
+    background-color: #3B71fE;
+    border-radius: 30px;
+    padding: 4px 18px 5px;
+    
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+}
+.popular-content{
+    padding: 11px 20px;
+}
+.popular-time{
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #777E91;
+    display: block;
+    margin-bottom: 8px;
+}
+.popular-title{
+    font-size: 18px;
+    line-height: 28px;
+    color: #383945;
+    font-weight: 600;
+    margin-bottom: 9px;
+    overflow: hidden;
+    
+}
+.popular-review{
+    display: flex;
+    column-gap: 8px;
+    font-size: 12px;
+    line-height: 175%;
+    color: #4f4f4f;
+    overflow: hidden;
+}
+.popular-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        24.19deg, rgba(4, 4, 4, 0.52) 0.23%, rgba(4, 4, 4, 0) 55.52%);
+}
+@media screen and (max-width: 1023.98px) {
+    .popular-item{
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .popular-item{
+        width: 100%;
+    }
+    
+}
