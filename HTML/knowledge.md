@@ -98,3 +98,14 @@ Day 6:
 - `translateX`: Nếu giá trị là số dương thì nó sẽ di chuyển qua bên phải, ngược lại thì di chuyển qua bên trái
 - `translateY`: Nếu giá trị là số dương thì nó sẽ đi xuống, ngược lại thì sẽ đi lên 
 - `value`: 10px, 20px, -15px, -30px, 10%(lưu ý: khi sử dụng % thì % ở đây chính là độ rộng hoặc chiều cao của khối chúng ta đang áp dụng thuộc tính transform và hàm translate)
+
+Day 7:
+- _variables_: biến là gì? khai báo như thế nào? Cách sử dụng ra sao? Ưu và nhược điểm nó là gì?
+- Biến là khai báo 1 giá trị để có thể sử dụng đi sử dụng lại ở nhiều chỗ, khi muốn cập nhật thì cập nhật ở 1 chỗ 
+- Thường sẽ khai báo ở `root`:
+Khai báo:
+ --primary-color: orange;
+ --secondary-color: blue;
+ --text-color: red;
+ --font-size-sm: 16px;
+- Cách sử dụng: var(--font-size-sm)
