@@ -109,3 +109,10 @@ Khai báo:
  --text-color: red;
  --font-size-sm: 16px;
 - Cách sử dụng: var(--font-size-sm)
+
+Day 8:
+- _display_: `grid` là một tổ hợp của những đường ngang và dọc cắt nhau – một nhóm xác định các cột và nhóm kia xác định các hàng
+- _grid-template-columns_: sẽ tương ứng với số cột, các giá trị sẽ tương ứng với chiều rộng của các cột lần lượt từ trái sang phải
+- _grid-template-rows_: sẽ tương ứng số hàng, các giá trị sẽ tương ứng với chiều cao của các hàng lần lượt từ trên xuống dưới
+- 1fr = fraction unit
+- _grid-auto-flow_ : `column` sẽ tương thích vs số cột nằm trên 1 hàng ko bị xuống dòng
